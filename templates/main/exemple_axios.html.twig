@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello MainController!{% endblock %}
+
+{% block stylesheets %}
+{{ encore_entry_link_tags ('app') }}
+{{ encore_entry_link_tags ('app2') }}
+{% endblock %}
+
+{% block body %}
+
+<form id="leForm">
+    <input type="text" name="nom">
+    <button type="submit" id="envoyer">Afficher</button>
+</form>
+<div id="contenu"></div>
+{% endblock %}
+
+{% block javascripts %}
+{{ encore_entry_script_tags ('appAjax') }}
+
+{% endblock %}

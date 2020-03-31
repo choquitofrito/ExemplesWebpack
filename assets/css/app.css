@@ -1,3 +1,5 @@
+/* si on utilise bootStrap il faut l'inclure ici. Voir ProjetPaginatorWebpack */ 
+
 body {
     background-color: lightgray;
 }
